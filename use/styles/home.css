@@ -1,0 +1,38 @@
+        .container{
+
+            background-color: orange;
+            height: 97vh;
+            width: 100%;
+
+        }.container:hover{
+            cursor: context-menu;
+        }.header {
+            text-align: center;
+            font-size: 25px;
+            font-family: Arial;
+            color: darkred;     
+        }.section{
+            height: 50vh;
+            width: 100%;
+        }.picture{
+             width: 101px; 
+             height: 101px;
+             float: right; 
+             z-index: 1;
+             margin-top: -101px;
+             margin-right: 0;
+         }.Row
+        {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+            border-spacing: 10px;
+        }.Column
+        {
+            height: 50vh;
+            display: table-cell;
+            background-color: goldenrod;
+            border-color: black;
+            border-style: solid;
+            border-width: 3px;
+        }

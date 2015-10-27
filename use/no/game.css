@@ -1,0 +1,41 @@
+        body{
+            background-color: lightgoldenrodyellow;
+        }
+                #buttons{
+            float: left;
+            background-color: black;
+        }
+        #button{
+            display: inline-block;
+            border: 3px;
+            border-style: solid;
+            border-color: gray;
+            font-size: 100px;
+            background-color: black;
+            color: darkblue;
+            font-family: Arial;
+            transition-duration: 0.2s;
+            margin: -3px;
+            font-weight: 500;
+
+        }
+        #button:hover{
+            background-color: green;
+            color: lightblue;
+            cursor: pointer;
+            font-size: 110px;
+            font-family: Arial;
+            font-weight: 500;
+            transition-duration: 0.2s;
+        }
+         #section{
+            width: 100%;
+            height: 100vh;
+            float: left;
+            font-size: 20px;
+         }
+         input{
+             width: 10px;
+             height: 10px;
+             background-color: black;
+         }
